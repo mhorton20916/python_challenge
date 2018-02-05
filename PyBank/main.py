@@ -30,7 +30,7 @@ for f in resource_files:
     output_lines.append('Greatest Increase in Revenue: '+str(date[revenue_intervals.index(max_revenue_change)+1])+' ('+str(max_revenue_change)+')'+'\n')
     output_lines.append('Greatest Decrease in Revenue: '+str(date[revenue_intervals.index(min_revenue_change)+1])+' ('+str(min_revenue_change)+')\n\n')
     for line in output_lines:
-        print(line)
+        print(line,end='')
     with open('output_'+f.split('.')[0]+'.txt','w') as output:
         output.writelines(output_lines)
 
