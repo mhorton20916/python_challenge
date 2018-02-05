@@ -1,0 +1,5 @@
+#Ignore jupyter files
+
+.ipynb
+
+.ipynb_checkpoints
