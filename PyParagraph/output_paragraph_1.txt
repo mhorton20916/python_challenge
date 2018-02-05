@@ -1,0 +1,7 @@
+Paragraph Analysis for file: paragraph_1.txt
+---------------------------------------
+Word Count: 133
+Sentence Count: 5
+Average Number of Letters per Word: 6.13
+Average Sentence Length: 26.6
+
